@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.contact-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.email {
+    color: #3498db;
+}
+
+.phone {
+    color: #e74c3c;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set the default text color */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px; /* Add padding for a better visual appearance */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add transition effect */
+}
+
+a:hover {
+    background-color: #ff9900; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}

@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 300px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+#chimp {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+#main-section {
+    height: 100vh;
+    width: 100%vh;
+    background-color: grey;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+span {
+    font-weight: bold;
+}
+
+#chimp5 {
+    width: 400px;
+    height: 300px;
+    margin-left: 20%;
+}
+
+#chimp6 {
+    width: 400px;
+    height: 300px;
+    margin-left: 20%;
+}
+
+#chimp7 {
+    width: 400px;
+    height: 300px;
+    margin-left: 20%;
+}
+
+#wwf {
+    width: 400px;
+    height: 300px;
+    margin-left: 20%;
+}
+
+#wcs {
+    width: 400px;
+    height: 300px;
+    margin-left: 20%;
+}
